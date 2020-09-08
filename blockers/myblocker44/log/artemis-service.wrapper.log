@@ -1,0 +1,35 @@
+2020-09-07 16:12:20,145 DEBUG - Starting WinSW in the CLI mode
+2020-09-07 16:12:20,453 INFO  - Installing the service with id 'artemis-myblocker44-0.0.0.0'
+2020-09-07 16:12:20,464 FATAL - WMI Operation failure: AccessDenied
+WMI.WmiException: AccessDenied
+   at WMI.WmiRoot.BaseHandler.CheckError(ManagementBaseObject result)
+   at WMI.WmiRoot.ClassHandler.Invoke(Object proxy, MethodInfo method, Object[] arguments)
+   at WMI.Win32ServicesProxy.Create(String , String , String , ServiceType , ErrorControl , String , Boolean , String , String , String[] )
+   at winsw.WrapperService.<Run>g__Install|33_0(<>c__DisplayClass33_0& )
+   at winsw.WrapperService.Run(String[] _args, ServiceDescriptor descriptor)
+   at winsw.WrapperService.Main(String[] args)
+2020-09-07 16:13:49,090 DEBUG - Starting WinSW in the CLI mode
+2020-09-07 16:13:49,293 INFO  - Installing the service with id 'artemis-myblocker44-0.0.0.0'
+2020-09-07 16:13:49,308 DEBUG - Completed. Exit code is 0
+2020-09-07 16:14:43,706 DEBUG - Starting WinSW in the CLI mode
+2020-09-07 16:14:43,914 DEBUG - User requested the status of the process with id 'artemis-myblocker44-0.0.0.0'
+2020-09-07 16:14:43,917 DEBUG - Completed. Exit code is 0
+2020-09-07 16:15:04,391 DEBUG - Starting WinSW in the CLI mode
+2020-09-07 16:15:04,586 INFO  - Starting the service with id 'artemis-myblocker44-0.0.0.0'
+2020-09-07 16:15:04,835 DEBUG - Starting WinSW in the service mode
+2020-09-07 16:15:04,863 DEBUG - Completed. Exit code is 0
+2020-09-07 16:15:04,980 INFO  - Starting C:\Program Files\Java\jdk1.8.0_261\bin\java.exe  -Xbootclasspath/a:C:\Software\apache-ActiveMQ-Artemis\apache-artemis-2.15.0\lib\jboss-logmanager-2.1.10.Final.jar;C:\Software\apache-ActiveMQ-Artemis\apache-artemis-2.15.0\lib\wildfly-common-1.5.2.Final.jar -XX:+UseParallelGC -Xms512M -Xmx1024M -classpath C:\Software\apache-ActiveMQ-Artemis\apache-artemis-2.15.0\lib\artemis-boot.jar -Dartemis.home=C:\Software\apache-ActiveMQ-Artemis\apache-artemis-2.15.0 -Dartemis.instance=C:\Intellij\activemqproject\blockers\myblocker44 -Ddata.dir=C:\Intellij\activemqproject\blockers\myblocker44\data -Dartemis.instance.etc=C:\Intellij\activemqproject\blockers\myblocker44\etc -Djava.util.logging.manager=org.jboss.logmanager.LogManager -Dlogging.configuration=file:/C:/Intellij/activemqproject/blockers/myblocker44/etc//logging.properties -Djava.security.auth.login.config=C:\Intellij\activemqproject\blockers\myblocker44\etc\login.config -Dhawtio.realm=activemq -Dhawtio.offline="true" -Dhawtio.role=amq -Dhawtio.rolePrincipalClasses=org.apache.activemq.artemis.spi.core.security.jaas.RolePrincipal -Djolokia.policyLocation=file:/C:/Intellij/activemqproject/blockers/myblocker44/etc//jolokia-access.xml org.apache.activemq.artemis.boot.Artemis run 
+2020-09-07 16:15:04,997 INFO  - Started process 19236
+2020-09-07 16:15:05,002 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.RollingLogAppender
+2020-09-07 16:15:16,422 DEBUG - Starting WinSW in the CLI mode
+2020-09-07 16:15:16,621 DEBUG - User requested the status of the process with id 'artemis-myblocker44-0.0.0.0'
+2020-09-07 16:15:16,624 DEBUG - Completed. Exit code is 0
+2020-09-07 16:35:20,120 INFO  - Stopping artemis-myblocker44-0.0.0.0
+2020-09-07 16:35:20,136 INFO  - Started process 14504
+2020-09-07 16:35:20,167 DEBUG - WaitForProcessToExit 19236+14504
+2020-09-07 16:35:21,122 INFO  - Finished artemis-myblocker44-0.0.0.0
+2020-09-07 16:35:21,122 DEBUG - Completed. Exit code is 0
+2020-09-07 16:35:53,060 DEBUG - Starting WinSW in the service mode
+2020-09-07 16:35:53,189 INFO  - Starting C:\Program Files\Java\jdk1.8.0_261\bin\java.exe  -Xbootclasspath/a:C:\Software\apache-ActiveMQ-Artemis\apache-artemis-2.15.0\lib\jboss-logmanager-2.1.10.Final.jar;C:\Software\apache-ActiveMQ-Artemis\apache-artemis-2.15.0\lib\wildfly-common-1.5.2.Final.jar -XX:+UseParallelGC -Xms512M -Xmx1024M -classpath C:\Software\apache-ActiveMQ-Artemis\apache-artemis-2.15.0\lib\artemis-boot.jar -Dartemis.home=C:\Software\apache-ActiveMQ-Artemis\apache-artemis-2.15.0 -Dartemis.instance=C:\Intellij\activemqproject\blockers\myblocker44 -Ddata.dir=C:\Intellij\activemqproject\blockers\myblocker44\data -Dartemis.instance.etc=C:\Intellij\activemqproject\blockers\myblocker44\etc -Djava.util.logging.manager=org.jboss.logmanager.LogManager -Dlogging.configuration=file:/C:/Intellij/activemqproject/blockers/myblocker44/etc//logging.properties -Djava.security.auth.login.config=C:\Intellij\activemqproject\blockers\myblocker44\etc\login.config -Dhawtio.realm=activemq -Dhawtio.offline="true" -Dhawtio.role=amq -Dhawtio.rolePrincipalClasses=org.apache.activemq.artemis.spi.core.security.jaas.RolePrincipal -Djolokia.policyLocation=file:/C:/Intellij/activemqproject/blockers/myblocker44/etc//jolokia-access.xml org.apache.activemq.artemis.boot.Artemis run 
+2020-09-07 16:35:53,219 INFO  - Started process 7284
+2020-09-07 16:35:53,221 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.RollingLogAppender
